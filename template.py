@@ -24,6 +24,7 @@ list_of_files=[
     f"src/{project_name}/utils.py",
 
     "app.py",
+    "main.py",
     "Dockerfile",
     "requirements.txt",
     "setup.py"
@@ -47,3 +48,9 @@ for filepath in list_of_files:
     
     else:
         logging.info(f"{filename} is already exists")
+
+
+
+#pip install cookiecutter
+#copy the git cmd from the page 
+#then the process will be executed....
